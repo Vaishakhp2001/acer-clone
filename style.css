@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.border1{
+    border-right: 1px solid gainsbor;
+}
+
+#Predator-logo{
+    fill: rgb(153 153 153);
+}
+#second{
+    fill: rgb(153 153 153);
+}
+#third{
+    fill: rgb(153 153 153);
+
+}
+#Predator-logo :hover{
+    fill:black;
+}
+#second:hover{
+    fill:black;
+}
+#third:hover{
+    fill:black;
+}
+ a{
+    color:rgb(153 153 153);
+    text-decoration: none;
+}
+.box{
+    position: relative;
+}
+.centered{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+.centered1{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    font-size:2vw;
+}
+.centered2{
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    font-size: 4vw;
+    font-weight: bold;
+}
+.centered3{
+    position: absolute;
+    top: 60%;
+    left: 42%;  
+    font-size: 2vw;
+}
+.button1{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    
+}
+
+
+.zoom1{
+    transition: .2s;
+}
+.zoom2{
+    transition: .2s;
+}
+.zoom3{
+    transition: .2s;
+}
+.zoom4{
+    transition: .2s;
+}
+
+.zoom1:hover {
+    transform: scale(1.1);
+}
+
+.zoom2:hover{
+    transform:scale(1.1);
+}
+.zoom3:hover{
+    transform: scale(1.1);
+}
+.zoom4:hover{
+    transform: scale(1.1);
+}
+
+.content{
+    position:relative;
+    
+}
+
+.content .content-overlay{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+  
+  transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay{
+    opacity: 1;
+}
+.content{
+    transition :.2s;
+}
+.content:hover{
+    transform: scale(1.01);
+}
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+   
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  .content-details h6{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  .fadeIn-bottom{
+    top: 100%;
+  }
+.footer1{
+    
+    background-color: rgb(87 87 87);
+}
+.footer-col{
+    line-height: 20px;
+}
+
+
+.footer-col p{
+    color: #fff;
+    font-size: small;
+    
+    
+}
+.footer-col a{
+    line-height: 40px;
+    font-size: x-small;
+}
+.footer1 .row{
+    vertical-align: middle;
+}
+
+
+.footer2{
+    width: 100%;
+    background-color: #202020;
+}
+
+.row svg{
+    fill:#6b6b6b;
+    
+}
+.footer2 hr{
+    color: aliceblue;
+}
+
+.row .col-two{
+    color: rgb(90 85 87);
+    font-size: small;
+    text-align: center;
+}
+.row .col-three{
+    text-align: end;
+}
